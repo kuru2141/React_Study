@@ -52,11 +52,13 @@ import "./App.css";
 // export default App;
 
 import Register from "./components/Register";
+import HookExam from "./components/HookExam";
 
 function App() {
   return (
     <>
-      <Register />
+      <HookExam />
+      {/* <Register /> */}
     </>
   );
 }
